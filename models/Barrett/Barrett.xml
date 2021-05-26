@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='ASCII'?>
+<model version="1">
+  <geom blue="186" green="147" meshFile="../../../thermal_grasp/data/barrett/palm.ply" red="83" rx="0" ry="0" rz="0" sx="1e-3" sy="1e-3" sz="1e-3" tx="0" ty="0" type="mesh" tz="0"/>
+  <frame jointMax="3.141592653589793" jointMin="0.0" jointName="0_0" jointType="rotational">
+    <position x="0.025" y="0.0" z="-0.001"/>
+    <orientation x="3.14159265359" y="1.22464679915e-16" z="3.14159265359"/>
+    <axis x="0" y="0" z="1.0"/>
+    <dh_offset a="0.05" alpha="-1.5707963267948966" d="0.0" theta="1.5707963267948966"/>
+    <frame jointMax="2.5132741228718345" jointMin="0.0" jointName="0_1" jointType="rotational">
+      <position x="0.0" y="0.0" z="0.0"/>
+      <orientation x="0" y="0" z="0"/>
+      <axis x="0" y="0" z="1.0"/>
+      <dh_offset a="0.07" alpha="0.0" d="0.0" theta="0.08726646259971647"/>
+      <frame jointMax="2.5132741228718345" jointMin="0.0" jointName="0_2" jointType="rotational">
+        <position x="0.0" y="0.0" z="0.0"/>
+        <orientation x="0" y="0" z="0"/>
+        <axis x="0" y="0" z="0.333333333"/>
+        <dh_offset a="0.055" alpha="0.0" d="0.0" theta="0.6981317007977318"/>
+        <geom blue="44" green="98" meshFile="../../../thermal_grasp/data/barrett/link3.ply" red="149" rx="0" ry="0" rz="0" sx="1e-3" sy="1e-3" sz="1e-3" tx="0" ty="0" type="mesh" tz="0"/>
+      </frame>
+      <geom blue="113" green="63" meshFile="../../../thermal_grasp/data/barrett/link2.ply" red="80" rx="0" ry="0" rz="0" sx="1e-3" sy="1e-3" sz="1e-3" tx="0" ty="0" type="mesh" tz="0"/>
+    </frame>
+    <geom blue="97" green="133" meshFile="../../../thermal_grasp/data/barrett/link1.ply" red="22" rx="0" ry="0" rz="0" sx="1e-3" sy="1e-3" sz="1e-3" tx="0" ty="0" type="mesh" tz="0"/>
+  </frame>
+  <frame jointMax="3.141592653589793" jointMin="0.0" jointName="1_0" jointType="rotational">
+    <position x="-0.025" y="0.0" z="-0.001"/>
+    <orientation x="0.0" y="-0.0" z="0.0"/>
+    <axis x="0" y="0" z="1.0"/>
+    <dh_offset a="0.05" alpha="1.5707963267948966" d="0.0" theta="1.5707963267948966"/>
+    <frame jointMax="2.5132741228718345" jointMin="0.0" jointName="1_1" jointType="rotational">
+      <position x="0.0" y="0.0" z="0.0"/>
+      <orientation x="0" y="0" z="0"/>
+      <axis x="0" y="0" z="1.0"/>
+      <dh_offset a="0.07" alpha="0.0" d="0.0" theta="0.08726646259971647"/>
+      <frame jointMax="2.5132741228718345" jointMin="0.0" jointName="1_2" jointType="rotational">
+        <position x="0.0" y="0.0" z="0.0"/>
+        <orientation x="0" y="0" z="0"/>
+        <axis x="0" y="0" z="0.333333333"/>
+        <dh_offset a="0.055" alpha="0.0" d="0.0" theta="0.6981317007977318"/>
+        <geom blue="44" green="98" meshFile="../../../thermal_grasp/data/barrett/link3.ply" red="149" rx="0" ry="0" rz="0" sx="1e-3" sy="1e-3" sz="1e-3" tx="0" ty="0" type="mesh" tz="0"/>
+      </frame>
+      <geom blue="113" green="63" meshFile="../../../thermal_grasp/data/barrett/link2.ply" red="80" rx="0" ry="0" rz="0" sx="1e-3" sy="1e-3" sz="1e-3" tx="0" ty="0" type="mesh" tz="0"/>
+    </frame>
+    <geom blue="97" green="133" meshFile="../../../thermal_grasp/data/barrett/link1.ply" red="22" rx="0" ry="0" rz="0" sx="1e-3" sy="1e-3" sz="1e-3" tx="0" ty="0" type="mesh" tz="0"/>
+  </frame>
+  <frame jointMax="2.5132741228718345" jointMin="0.0" jointName="2_0" jointType="rotational">
+    <position x="0.0" y="-0.05" z="-0.001"/>
+    <orientation x="1.57079632679" y="-6.12323399574e-17" z="-1.57079632679"/>
+    <axis x="0" y="0" z="1.0"/>
+    <dh_offset a="0.07" alpha="0.0" d="0.0" theta="0.08726646259971647"/>
+    <frame jointMax="2.5132741228718345" jointMin="0.0" jointName="2_1" jointType="rotational">
+      <position x="0.0" y="0.0" z="0.0"/>
+      <orientation x="0" y="0" z="0"/>
+      <axis x="0" y="0" z="0.333333333"/>
+      <dh_offset a="0.055" alpha="0.0" d="0.0" theta="0.6981317007977318"/>
+      <geom blue="44" green="98" meshFile="../../../thermal_grasp/data/barrett/link3.ply" red="149" rx="0" ry="0" rz="0" sx="1e-3" sy="1e-3" sz="1e-3" tx="0" ty="0" type="mesh" tz="0"/>
+    </frame>
+    <geom blue="113" green="63" meshFile="../../../thermal_grasp/data/barrett/link2.ply" red="80" rx="0" ry="0" rz="0" sx="1e-3" sy="1e-3" sz="1e-3" tx="0" ty="0" type="mesh" tz="0"/>
+  </frame>
+</model>

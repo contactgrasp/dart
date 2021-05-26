@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='ASCII'?>
+<model version="1">
+  <geom blue="186" green="147" meshFile="../../../../catkin_ws/src/ros_thermal_grasp/data/allegro/base_link.STL" red="83" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" tx="0" ty="0" type="mesh" tz="0"/>
+  <frame jointMax="0.57" jointMin="-0.59" jointName="palm_link_index_link_0" jointType="rotational">
+    <position x="0" y="0.0435" z="-0.001542"/>
+    <orientation x="-0.08726646255" y="0" z="0"/>
+    <axis x="0" y="0" z="1"/>
+    <geom blue="97" green="133" meshFile="../../../../catkin_ws/src/ros_thermal_grasp/data/allegro/link_0.0.STL" red="22" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" tx="0" ty="0" type="mesh" tz="0"/>
+    <frame jointMax="1.71" jointMin="-0.296" jointName="index_link_0_index_link_1" jointType="rotational">
+      <position x="0" y="0" z="0.0164"/>
+      <orientation x="0" y="0" z="0"/>
+      <axis x="0" y="1" z="0"/>
+      <geom blue="139" green="191" meshFile="../../../../catkin_ws/src/ros_thermal_grasp/data/allegro/link_1.0.STL" red="32" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" tx="0" ty="0" type="mesh" tz="0"/>
+      <frame jointMax="1.809" jointMin="-0.274" jointName="index_link_1_index_link_2" jointType="rotational">
+        <position x="0" y="0" z="0.054"/>
+        <orientation x="0" y="0" z="0"/>
+        <axis x="0" y="1" z="0"/>
+        <geom blue="192" green="231" meshFile="../../../../catkin_ws/src/ros_thermal_grasp/data/allegro/link_2.0.STL" red="111" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" tx="0" ty="0" type="mesh" tz="0"/>
+        <frame jointMax="1.718" jointMin="-0.327" jointName="index_link_2_index_link_3" jointType="rotational">
+          <position x="0" y="0" z="0.0384"/>
+          <orientation x="0" y="0" z="0"/>
+          <axis x="0" y="1" z="0"/>
+          <geom blue="97" green="133" meshFile="../../../../catkin_ws/src/ros_thermal_grasp/data/allegro/link_3.0.STL" red="22" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" tx="0" ty="0" type="mesh" tz="0"/>
+          <geom blue="139" green="191" meshFile="../../../../catkin_ws/src/ros_thermal_grasp/data/allegro/link_3.0_tip.STL" red="32" rx="0.000000" ry="0.000000" rz="0.000000" sx="1" sy="1" sz="1" tx="0.000000" ty="0.000000" type="mesh" tz="0.026700"/>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame jointMax="0.57" jointMin="-0.59" jointName="palm_link_middle_link_0" jointType="rotational">
+    <position x="0" y="0" z="0.0007"/>
+    <orientation x="0.0" y="0" z="0"/>
+    <axis x="0" y="0" z="1"/>
+    <geom blue="113" green="63" meshFile="../../../../catkin_ws/src/ros_thermal_grasp/data/allegro/link_0.0.STL" red="80" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" tx="0" ty="0" type="mesh" tz="0"/>
+    <frame jointMax="1.71" jointMin="-0.296" jointName="middle_link_0_middle_link_1" jointType="rotational">
+      <position x="0" y="0" z="0.0164"/>
+      <orientation x="0" y="0" z="0"/>
+      <axis x="0" y="1" z="0"/>
+      <geom blue="157" green="87" meshFile="../../../../catkin_ws/src/ros_thermal_grasp/data/allegro/link_1.0.STL" red="110" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" tx="0" ty="0" type="mesh" tz="0"/>
+      <frame jointMax="1.809" jointMin="-0.274" jointName="middle_link_1_middle_link_2" jointType="rotational">
+        <position x="0" y="0" z="0.054"/>
+        <orientation x="0" y="0" z="0"/>
+        <axis x="0" y="1" z="0"/>
+        <geom blue="184" green="128" meshFile="../../../../catkin_ws/src/ros_thermal_grasp/data/allegro/link_2.0.STL" red="147" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" tx="0" ty="0" type="mesh" tz="0"/>
+        <frame jointMax="1.718" jointMin="-0.327" jointName="middle_link_2_middle_link_3" jointType="rotational">
+          <position x="0" y="0" z="0.0384"/>
+          <orientation x="0" y="0" z="0"/>
+          <axis x="0" y="1" z="0"/>
+          <geom blue="113" green="63" meshFile="../../../../catkin_ws/src/ros_thermal_grasp/data/allegro/link_3.0.STL" red="80" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" tx="0" ty="0" type="mesh" tz="0"/>
+          <geom blue="157" green="87" meshFile="../../../../catkin_ws/src/ros_thermal_grasp/data/allegro/link_3.0_tip.STL" red="110" rx="0.000000" ry="0.000000" rz="0.000000" sx="1" sy="1" sz="1" tx="0.000000" ty="0.000000" type="mesh" tz="0.026700"/>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame jointMax="0.57" jointMin="-0.59" jointName="palm_link_ring_link_0" jointType="rotational">
+    <position x="0" y="-0.0435" z="-0.001542"/>
+    <orientation x="0.08726646255" y="0" z="0"/>
+    <axis x="0" y="0" z="1"/>
+    <geom blue="44" green="98" meshFile="../../../../catkin_ws/src/ros_thermal_grasp/data/allegro/link_0.0.STL" red="149" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" tx="0" ty="0" type="mesh" tz="0"/>
+    <frame jointMax="1.71" jointMin="-0.296" jointName="ring_link_0_ring_link_1" jointType="rotational">
+      <position x="0" y="0" z="0.0164"/>
+      <orientation x="0" y="0" z="0"/>
+      <axis x="0" y="1" z="0"/>
+      <geom blue="63" green="132" meshFile="../../../../catkin_ws/src/ros_thermal_grasp/data/allegro/link_1.0.STL" red="198" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" tx="0" ty="0" type="mesh" tz="0"/>
+      <frame jointMax="1.809" jointMin="-0.274" jointName="ring_link_1_ring_link_2" jointType="rotational">
+        <position x="0" y="0" z="0.054"/>
+        <orientation x="0" y="0" z="0"/>
+        <axis x="0" y="1" z="0"/>
+        <geom blue="102" green="157" meshFile="../../../../catkin_ws/src/ros_thermal_grasp/data/allegro/link_2.0.STL" red="210" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" tx="0" ty="0" type="mesh" tz="0"/>
+        <frame jointMax="1.718" jointMin="-0.327" jointName="ring_link_2_ring_link_3" jointType="rotational">
+          <position x="0" y="0" z="0.0384"/>
+          <orientation x="0" y="0" z="0"/>
+          <axis x="0" y="1" z="0"/>
+          <geom blue="44" green="98" meshFile="../../../../catkin_ws/src/ros_thermal_grasp/data/allegro/link_3.0.STL" red="149" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" tx="0" ty="0" type="mesh" tz="0"/>
+          <geom blue="63" green="132" meshFile="../../../../catkin_ws/src/ros_thermal_grasp/data/allegro/link_3.0_tip.STL" red="198" rx="0.000000" ry="0.000000" rz="0.000000" sx="1" sy="1" sz="1" tx="0.000000" ty="0.000000" type="mesh" tz="0.026700"/>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame jointMax="1.62" jointMin="0.363" jointName="palm_link_thumb_link_0" jointType="rotational">
+    <position x="-0.0182" y="0.022333" z="-0.045987"/>
+    <orientation x="0" y="-1.65806278845" z="-1.417963259"/>
+    <axis x="-1" y="0" z="0"/>
+    <geom blue="80" green="60" meshFile="../../../../catkin_ws/src/ros_thermal_grasp/data/allegro/link_12.0_right.STL" red="114" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" tx="0" ty="0" type="mesh" tz="0"/>
+    <frame jointMax="1.263" jointMin="-0.205" jointName="thumb_link_0_thumb_link_1" jointType="rotational">
+      <position x="-0.027" y="0.005" z="0.0399"/>
+      <orientation x="0" y="0" z="0"/>
+      <axis x="0" y="0" z="1"/>
+      <geom blue="112" green="84" meshFile="../../../../catkin_ws/src/ros_thermal_grasp/data/allegro/link_13.0.STL" red="158" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" tx="0" ty="0" type="mesh" tz="0"/>
+      <frame jointMax="1.744" jointMin="-0.289" jointName="thumb_link_1_thumb_link_2" jointType="rotational">
+        <position x="0" y="0" z="0.0177"/>
+        <orientation x="0" y="0" z="0"/>
+        <axis x="0" y="1" z="0"/>
+        <geom blue="138" green="113" meshFile="../../../../catkin_ws/src/ros_thermal_grasp/data/allegro/link_14.0.STL" red="217" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" tx="0" ty="0" type="mesh" tz="0"/>
+        <frame jointMax="1.819" jointMin="-0.262" jointName="thumb_link_2_thumb_link_3" jointType="rotational">
+          <position x="0" y="0" z="0.0514"/>
+          <orientation x="0" y="0" z="0"/>
+          <axis x="0" y="1" z="0"/>
+          <geom blue="80" green="60" meshFile="../../../../catkin_ws/src/ros_thermal_grasp/data/allegro/link_15.0.STL" red="114" rx="0" ry="0" rz="0" sx="1" sy="1" sz="1" tx="0" ty="0" type="mesh" tz="0"/>
+          <geom blue="112" green="84" meshFile="../../../../catkin_ws/src/ros_thermal_grasp/data/allegro/link_15.0_tip.STL" red="158" rx="0.000000" ry="0.000000" rz="0.000000" sx="1" sy="1" sz="1" tx="0.000000" ty="0.000000" type="mesh" tz="0.042300"/>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+</model>
