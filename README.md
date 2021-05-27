@@ -30,7 +30,7 @@ Entry point for ContactGrasp code system.
 - Compile and install using the provided `CMakeLists.txt`. Then, run the following commands from the root dir of this project:
 - `ln -s thermal_grasp/data/human_hand_meshes models/HumanHand/meshes`, where [`thermal_grasp`](https://github.com/contactgrasp/thermal_grasp) is the companion repository.
 - `mkdir grasps`: The grasps refined by this project's `grasp_analyzer` binary will be saved in this directory. You can download the generated results from our IROS 2019 paper [here](https://github.com/contactgrasp/contactgrasp_data/blob/master/grasps.zip).
-- Download and unzip the [object models](https://github.com/contactgrasp/contactgrasp_data/blob/master/object_models.zip) into a directory named `object_models`.
+- Download and unzip the [object models](https://github.com/contactgrasp/contactgrasp_data/blob/master/object_models.zip) into a directory named `models/object_models`.
 
 ## Documentation
 
