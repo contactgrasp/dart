@@ -25,6 +25,13 @@ Entry point for ContactGrasp code system.
 - [contactgrasp/thermal_grasp](https://github.com/contactgrasp/thermal_grasp): Utilities for ContactGrasp, including GraspIt! sampler for initializing ContactGrasp.
 - [contactgrasp/ros_thermal_grasp](https://github.com/contactgrasp/dart): ROS code for executing ContactGrasp grasps with MoveIt!.
 
+## Setup
+
+- Compile and install using the provided `CMakeLists.txt`. Then, run the following commands from the root dir of this project:
+- `ln -s thermal_grasp/data/human_hand_meshes models/HumanHand/meshes`, where [`thermal_grasp`](https://github.com/contactgrasp/thermal_grasp) is the companion repository.
+- `mkdir grasps`: The grasps refined by this project's `grasp_analyzer` binary will be saved in this directory.
+- Download and unzip the [object models](https://github.com/contactgrasp/contactgrasp_data/blob/master/object_models.zip) into a directory named `object_models`.
+
 ## Documentation
 
 Unfortunately, the code is not very well documented right now. Please create issues for questions.
