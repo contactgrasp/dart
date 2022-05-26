@@ -36,7 +36,7 @@ Entry point for ContactGrasp code system.
 
 Unfortunately, the code is not very well documented right now. Please create issues for questions.
 
-[`dart/src/grasp_analyzer_main.cpp`](https://github.com/contactgrasp/dart/blob/master/src/grasp_analyzer.cpp) is the ContactGrasp starting point. It is a GUI which allows you to load an object mesh, attractive/repulsive points, and a hand model (with init parameters). It also allows you to tune various hyperparameters (like the strength of attraction/repulsion), to optimize the hand the ContactGrasp cost function, and to save the optimized parameters of the hand.
+[`dart/src/grasp_analyzer_main.cpp`](dart/src/grasp_analyzer_main.cpp) is the ContactGrasp starting point. It is a GUI which allows you to load an object mesh, attractive/repulsive points, and a hand model (with init parameters). It also allows you to tune various hyperparameters (like the strength of attraction/repulsion), to optimize the hand the ContactGrasp cost function, and to save the optimized parameters of the hand.
 
 If you diff the dart directory against https://github.com/tschmidt23/dart, that should be informative about what changes I made.
 
